@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "232857972655",
+    "firebase_url": "https://drug-easy-official-default-rtdb.firebaseio.com",
+    "project_id": "drug-easy-official",
+    "storage_bucket": "drug-easy-official.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232857972655:android:a8b6c85fe50a2e4a63095a",
+        "android_client_info": {
+          "package_name": "com.example.drugeasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232857972655-v3v5ufob9kst9vgh6q97jpeh0vilnqm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drugeasy",
+            "certificate_hash": "fffa7d3531864941a759f4cc979d50fd6c0fdcf6"
+          }
+        },
+        {
+          "client_id": "232857972655-kaf72tt21h87b80n0b1v3952bdnl0pmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYBoVWz3Dr2bnKX-9vxv0nhS-qVYIvfP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232857972655-kaf72tt21h87b80n0b1v3952bdnl0pmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

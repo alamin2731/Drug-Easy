@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".ExpandActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec"
+        android:layout_width="421dp"
+        android:layout_height="499dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/finallname"
+        android:layout_width="190dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="27dp"
+        android:backgroundTint="@color/black"
+        android:text="Other Brand"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bbb"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <TextView
+        android:id="@+id/finallmg"
+        android:layout_width="116dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="17dp"
+        android:text="Mg"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finallname" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="139dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="2dp"
+        android:text="Tab/Cap"
+        android:textColor="@color/black"
+
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finallmg" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="159dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="3dp"
+        android:text="Generic Name"
+        android:textColor="@color/black"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/bbb"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+
+        android:text="Brand Name"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:layout_width="27dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="62dp"
+        android:background="@drawable/fv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/finallname"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

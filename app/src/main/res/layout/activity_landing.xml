@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LandingActivity">
+
+    <Button
+        android:id="@+id/addDrug"
+        android:layout_width="127dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/mdadd"
+        android:text="Add Drugs"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/drugStore"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/indicationButton" />
+
+    <Button
+        android:id="@+id/drugStore"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/drugstore"
+        android:text="Drug Store"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/about"
+        app:layout_constraintStart_toEndOf="@+id/addDrug"
+        app:layout_constraintTop_toBottomOf="@+id/invoiceButton" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/owner"
+        android:text="About"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/drugStore"
+        app:layout_constraintTop_toBottomOf="@+id/favouritButton" />
+
+    <Button
+        android:id="@+id/genericButton"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/dna"
+        android:text="Drug by Generic"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/atozButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/atozButton"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/docr"
+        android:text="A-Z Drugs"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/genericButton"
+        app:layout_constraintStart_toEndOf="@+id/searchButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/setwo"
+        android:text="Search"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/atozButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/favouritButton"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/favourite"
+        android:text="Favoruit"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/invoiceButton"
+        app:layout_constraintTop_toBottomOf="@+id/genericButton" />
+
+    <Button
+        android:id="@+id/invoiceButton"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/invoiceone"
+        android:text="Invoice"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/favouritButton"
+        app:layout_constraintStart_toEndOf="@+id/indicationButton"
+        app:layout_constraintTop_toBottomOf="@+id/atozButton" />
+
+    <Button
+        android:id="@+id/indicationButton"
+        android:layout_width="126dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="1dp"
+        android:backgroundTint="@color/white"
+        android:drawableTop="@drawable/stethoscope"
+        android:text="Indication"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/invoiceButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchButton" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="476dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sttt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

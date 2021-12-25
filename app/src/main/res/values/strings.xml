@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Drug Easy</string>
+    <string name="enter_number_for_otp">Enter number for OTP</string>
+</resources>

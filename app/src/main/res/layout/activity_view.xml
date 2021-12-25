@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity">
+
+    <TextView
+        android:id="@+id/finalName"
+        android:layout_width="219dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="22dp"
+        android:text="Ace"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textDirection="firstStrongLtr"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/finalGeneric"
+        android:layout_width="347dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/border"
+        android:text="Paracetamol"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalBrand" />
+
+    <TextView
+        android:id="@+id/finalIndication"
+        android:layout_width="347dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/border"
+        android:text="Indication"
+        android:maxLines="4"
+        android:singleLine="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:autoSizeTextType="uniform"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalGeneric" />
+
+    <TextView
+        android:id="@+id/finalDose"
+        android:layout_width="345dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/border"
+        android:maxLines="4"
+        android:singleLine="false"
+        android:text="Dose"
+        android:autoSizeTextType="uniform"
+
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalIndication" />
+
+    <TextView
+        android:id="@+id/finalSideEffect"
+        android:layout_width="345dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/border"
+        android:text="side Effect"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalDose" />
+
+    <TextView
+        android:id="@+id/finalPrice"
+        android:layout_width="350dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/border"
+        android:text="price"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/finalSideEffect" />
+
+    <TextView
+        android:id="@+id/finalBrand"
+        android:layout_width="336dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/border"
+        android:text="Brand"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="3dp"
+        android:text="Other Brand"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/finalName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
